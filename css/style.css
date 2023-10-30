@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: open sans,helvetica,"sans-serif";
+}
+body{
+    padding-top: 60px;
+}
+/*Inicio da formatação do header*/
+
+#header-navbar-brand-logo{
+
+}
+
+.navbar-fundo-cadastrese{
+    background-color: #34495E;
+    border-radius: 5px;
+}
+.navbar-fundo-cadastrese:hover{
+    background-color: #424f5d;
+}
+/*Fim da formatação do header*/
+
+/*Inicio formatação banner*/
+#banner{
+width: 100%;
+height: 560px;
+background-image: url("https://wallpaperswide.com/download/programming_2-wallpaper-2560x1440.jpg");
+background-repeat: no-repeat;
+background-position: center;
+background-size: cover;
+background-attachment: fixed;
+}
+#banner h1{
+    font-family: open sans,helvetica,"sans-serif";
+    font-size: 40px;
+}
+#banner button{
+    padding: 10px;
+    font-family: open sans,helvetica,"sans-serif";
+    font-size: 1.2em;
+}
+#banner p{
+    font-style: italic;
+}
+@keyframes efeito{
+    from{
+        margin-left: 0px;
+        opacity:1 ;
+    }
+    to{
+        margin-left: 40px;
+        opacity: 0 ;
+    }
+}
+#banner-h1-tecnologias{
+    color: rgb(12, 216, 12);
+    font-weight: bolder;
+}
+#banner .efeito{
+
+    animation-name: efeito;
+    animation-duration: 1.5s;
+    animation-delay: 0;
+    animation-iteration-count:infinite;
+    animation-direction: alternate-reverse;
+    transition: 1.5s;
+}
+/*Fim formatação banner*/
+
+/*inicio formatação ultimas-vagas*/
+#ultimas-vagas{
+    background-color: #f4f4f4;
+    background-attachment: fixed;
+
+}
+/*Fim formatação ultimas-vagas*/
+/*Inicio formatação footer*/
+footer{
+    background-color: #34495E;
+    height: 150px;
+    color: white;
+}
+/*Fim formatação footer*/
+#depoimentos{
+    height: 420px;
+    background-color: #f4f4f4;
+}
+.carousel-item p{
+    text-align: center;
+    font-size: 1.1em;
+
+} 
+.carousel-item img{
+    
+    border-radius: 50%;
+}
+.perfil-depoimento{
+    text-align: center;
+}
